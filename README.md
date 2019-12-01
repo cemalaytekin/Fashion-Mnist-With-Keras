@@ -3,7 +3,7 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 
 Here's an example how the data looks (each class takes three-rows):
 ![](img/fashion-mnist-sprite.png)
-<img src="img/-embedding.gif" width="100%">
+<img src="img/embedding.gif" width="100%">
 
 ### Labels
 Each training and test example is assigned to one of the following labels:
