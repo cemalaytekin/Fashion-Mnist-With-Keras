@@ -58,3 +58,14 @@ Each training and test example is assigned to one of the following labels:
 | 7 | Sneaker |
 | 8 | Bag |
 | 9 | Ankle boot |
+
+### Conclusions
+
+With a complex sequential model with multiple convolution layers and 50 epochs for the training, we obtained an accuracy ~0.91 for test prediction. After investigating the validation accuracy and loss, we understood that the model is overfitting.
+We retrained the model with Dropout layers to the model to reduce overfitting.
+We confirmed the model improvement and with the same number of epochs for the training we obtained with the new model an accuracy of ~0.92 for test prediction. Only few classes are not correctly classified all the time, especially Class 6 (Shirt) and Class 2 (Pullover).
+
+### References
+[Fashion MNIST | Kaggle](https://www.kaggle.com/zalando-research/fashionmnist)
+
+[Fashion_MNIST | zalando](https://github.com/zalandoresearch/fashion-mnist)
