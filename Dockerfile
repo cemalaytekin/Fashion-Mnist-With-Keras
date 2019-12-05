@@ -10,7 +10,9 @@ WORKDIR /app
 
 USER jovyan
 
+COPY requirements.txt ./
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
 
 USER root
 
