@@ -67,4 +67,5 @@ We confirmed the model improvement and with the same number of epochs for the tr
 
 ### References
 [Fashion MNIST | Kaggle](https://www.kaggle.com/zalando-research/fashionmnist)
+
 [Fashion_MNIST | zalando](https://github.com/zalandoresearch/fashion-mnist)
